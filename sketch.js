@@ -47,7 +47,7 @@ function setup(){
     xPosition2 = 620;
 
     
-        for(var i = 0; i < 100; i++){           
+        for(var i = 0; i < 200; i++){           
             drops.push( new Rain (random(20,480), random(-10,300)) )              
             console.log(i)
         }
@@ -63,7 +63,7 @@ function draw(){
 
     ground.display();
    
-    for(var i = 0; i < 100; i++){          
+    for(var i = 0; i < 200; i++){          
                 
         drops[i].display();
         drops[i].reset();
